@@ -149,9 +149,9 @@ function Experience() {
                           <p className="text-base sm:text-xl mb-2 font-medium uppercase">
                             {experience.title}
                           </p>
-                          <h4 className="text-sm sm:text-base">
+                          <h3 className="text-sm sm:text-base">
                             {experience.company}
-                          </h4>
+                          </h3>
                           <p className="text-sm sm:text-base">
                             {experience.description}
                           </p>
