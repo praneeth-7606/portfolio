@@ -63,4 +63,11 @@ export const certificates = [
         date: '2024',
         description: 'Awarded for consistent problem-solving practice on LeetCode for 50 days.',
     },
+    {
+        id: 10,
+        name: '100 Days Coding Badge',
+        issuer: 'LeetCode',
+        date: '2024',
+        description: 'Awarded for consistent problem-solving practice on LeetCode for 100 days.',
+    },
 ];

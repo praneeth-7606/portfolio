@@ -5,7 +5,41 @@ import travel from '/public/image/travel.jpg';
 import contactimage from '/public/png/placeholder.png';
 export const projectsData = [
     {
-        id: 1,
+        "id": 1,
+        "name": "AI-Powered Medical Chatbot",
+        "description": "Developed an AI-driven chatbot that provides primary medication recommendations based on user input. The system combines Mistral AI with LangChain and Retrieval-Augmented Generation (RAG) for accurate, context-aware responses.",
+        "features": [
+          "Provides AI-based medical recommendations through conversational interface.",
+          "Integrated Mistral AI with LangChain and RAG for context-aware responses.",
+          "Built secure FastAPI backend with FAISS for fast vector-based search.",
+          "Implemented Firebase Authentication for secure login and document uploads."
+        ],
+        "tools": ["React.js", "Mistral AI", "LangChain", "FastAPI", "FAISS", "Firebase"],
+        "role": "Full Stack Developer",
+        "code": "",
+        "demo": "",
+        "image": ""
+    },
+    {
+        
+        "id": 2,
+        "name": "Resume Automation System",
+        "description": "Built an AI-powered system for generating resumes and cover letters from user-selected templates. The system parses user-uploaded resumes, cover letters, and skill matrices to enhance content using LLMs.",
+        "features": [
+          "Generates resumes and cover letters using AI-enhanced templates.",
+          "Parses uploaded resumes, cover letters, and skill matrices intelligently.",
+          "Integrated Mistral Model API for LLM-based content generation.",
+          "Secure authentication with login, signup, and password recovery."
+        ],
+        "tools": ["React.js", "FastAPI", "MongoDB", "Mistral AI"],
+        "role": "Full Stack Developer",
+        "code": "",
+        "demo": "",
+        "image": ""
+      
+    },
+    {
+        id: 3,
         name: 'Online Job Portal',
         description: "Developed a job portal web application using the MERN stack, featuring user authentication, role-based access control, job listings,job manipulation, and resume uploading. Enhanced UX/UI with React Js, CSS,ThunderClient, Materia UI and React-Bootstrap.",
         tools: ['MongoDB', 'Express', 'React.js', 'Node.js', 'Bootstrap', 'CSS'],
@@ -15,7 +49,7 @@ export const projectsData = [
         image: crefin,
     },
     {
-        id: 2,
+        id: 4,
         name: 'E-Commerce Website',
         description: "Built a complete e-commerce website featuring product listings, shopping cart functionality, payment integration, and admin panel for inventory management. Designed using React.js and integrated with Firebase for authentication.",
         tools: ['React.js', 'Firebase', 'CSS', 'Stripe API', 'React Router', 'Bootstrap'],
@@ -23,35 +57,7 @@ export const projectsData = [
         code: '',
         demo: '',
         image: travel,
-    },
-    {
-        id: 3,
-        name: 'Shopify Product Scraper',
-        description: "Developed a web application to scrape and display product information from Shopify stores in an organized format. The application includes XML reading, content summarization using LLMs, and a pre-scraping process to automate sitemap discovery.",
-        features: [
-            "Reads XML files to extract product links, images, and titles.",
-            "Processes content with LLMs to summarize product descriptions in bullet points.",
-            "Automates sitemap discovery by parsing robots.txt and XML sitemap."
-        ],
-        tools: ['Node.js', 'React', 'LLM API (e.g., ChatGPT)', 'JavaScript', 'HTML', 'CSS'],
-        role: 'Full Stack Developer',
-        code: '',
-        demo: '',
-        image: '',  // Add an appropriate image if available
-    }
-    ,
-    {
-        
-            id: 4,
-            name: 'Product Management App',
-            description: "Developed a comprehensive product management application with Next.js and TypeScript. Integrated Firebase for image manipulation, enabling dynamic product image editing and storage. Implemented features for product listing, CRUD operations, and real-time updates, ensuring a streamlined management experience.",
-            tools: ['Next.js', 'TypeScript', 'Firebase', 'React Bootstrap'],
-            role: 'Full Stack Developer',
-            code: '',  // Add GitHub repo link here if available
-            demo: '',  // Add live demo link here if available
-            image: ayla,  // Ensure 'ayla' points to the correct image file path
-          },
-          
+    },     
     {
         
             
