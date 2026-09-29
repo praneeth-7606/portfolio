@@ -1,9 +1,10 @@
 
 
+import dynamic from "next/dynamic";
 import { experiences } from "@/utils/data/experience";
 import Image from "next/image";
 import { BsPersonWorkspace } from "react-icons/bs";
-import AnimationLottie from "../../helper/animation-lottie";
+const AnimationLottie = dynamic(() => import("../../helper/animation-lottie"), { ssr: false });
 import GlowCard from "../../helper/glow-card";
 import experience from '/public/lottie/code.json';
 
